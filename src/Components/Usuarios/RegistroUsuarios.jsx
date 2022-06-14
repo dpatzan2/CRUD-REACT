@@ -28,7 +28,7 @@ function RegistroUsuarios() {
       .then((res) => {
         Swal.fire({
           icon: 'success',
-          title: 'Oops...',
+          title: 'Bien...',
           text: "me registre",
           footer: '<a href="">Why do I have this issue?</a>'
         })

@@ -49,7 +49,7 @@ function App() {
             exact
           ></Route>
           <Route
-            path="/editarusuario"
+            path="/editarusuario/:idUsuario"
             element={<EditarUsuarios />}
             exact
           ></Route>
